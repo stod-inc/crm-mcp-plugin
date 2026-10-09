@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "stod-crm": {
+      "type": "http",
+      "url": "https://crm-mcp.matchstod.com/mcp",
+      "note": "StoD CRM MCP. Browser login is required. What each person can read or update follows that person's own CRM account."
+    }
+  }
+}

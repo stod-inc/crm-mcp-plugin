@@ -1,0 +1,20 @@
+{
+  "name": "stod-crm",
+  "owner": {
+    "name": "StoD"
+  },
+  "description": "Public distribution for the authenticated StoD CRM Plugin.",
+  "plugins": [
+    {
+      "name": "stod-crm",
+      "source": "./plugins/stod-crm",
+      "description": "Read and update the StoD CRM as the signed-in person, within what that person's own account allows.",
+      "version": "0.2.1",
+      "author": {
+        "name": "StoD"
+      },
+      "category": "Productivity",
+      "tags": ["crm", "mcp"]
+    }
+  ]
+}

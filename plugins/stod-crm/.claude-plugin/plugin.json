@@ -1,0 +1,13 @@
+{
+  "name": "stod-crm",
+  "version": "0.2.1",
+  "description": "Read and update the StoD CRM in Claude Code as the signed-in person, within what that person's own account allows.",
+  "author": {
+    "name": "StoD"
+  },
+  "repository": "https://github.com/stod-inc/crm-mcp-plugin",
+  "license": "Proprietary",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "keywords": ["stod", "crm", "mcp"]
+}

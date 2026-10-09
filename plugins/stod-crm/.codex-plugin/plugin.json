@@ -1,0 +1,25 @@
+{
+  "name": "stod-crm",
+  "version": "0.2.1",
+  "description": "Read and update the StoD CRM in Codex as the signed-in person, within what that person's own account allows.",
+  "author": {
+    "name": "StoD"
+  },
+  "homepage": "https://github.com/stod-inc/crm-mcp-plugin",
+  "repository": "https://github.com/stod-inc/crm-mcp-plugin",
+  "license": "Proprietary",
+  "keywords": ["stod", "crm", "mcp"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "StoD CRM",
+    "shortDescription": "CRMを本人として読む・更新する（できる範囲は本人のアカウントどおり）",
+    "longDescription": "利用を認められた本人として、StoDのCRMを読み、本人のアカウントで許されている範囲で更新します。数字はサーバーが数えた値をそのまま使い、取得時刻と定義を必ず添えます。書き込む前に内容を本人へ見せて了承を取り、書いた後に読み直して確かめます。何ができるかは、ログイン後にサーバーが返します。",
+    "developerName": "StoD",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://github.com/stod-inc/crm-mcp-plugin",
+    "defaultPrompt": ["CRMで自分に何ができるか確認して", "資料に載せるCRMの数字を、定義と取得時刻つきで出して"],
+    "brandColor": "#0D2D4F"
+  },
+  "mcpServers": "./.mcp.json"
+}

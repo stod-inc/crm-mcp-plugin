@@ -1,0 +1,6 @@
+interface:
+  display_name: "StoD CRM"
+  short_description: "CRMを本人として読む・更新する（できる範囲は本人のアカウントどおり）"
+  default_prompt: "Use $stod-crm to read the StoD CRM, or to update it after showing the person exactly what will be written."
+policy:
+  allow_implicit_invocation: true

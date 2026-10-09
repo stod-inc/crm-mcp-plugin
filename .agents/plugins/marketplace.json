@@ -1,0 +1,20 @@
+{
+  "name": "stod-crm",
+  "interface": {
+    "displayName": "StoD CRM"
+  },
+  "plugins": [
+    {
+      "name": "stod-crm",
+      "source": {
+        "source": "local",
+        "path": "./plugins/stod-crm"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
