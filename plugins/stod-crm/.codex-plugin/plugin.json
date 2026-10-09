@@ -1,6 +1,6 @@
 {
   "name": "stod-crm",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Read and update the StoD CRM in Codex as the signed-in person, within what that person's own account allows.",
   "author": {
     "name": "StoD"

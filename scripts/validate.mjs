@@ -10,7 +10,7 @@ const marketplaceName = "stod-crm";
 const serverName = "stod-crm";
 const pluginPath = `plugins/${pluginName}`;
 const pluginRoot = join(root, "plugins", pluginName);
-const expectedVersion = "0.2.1";
+const expectedVersion = "0.2.2";
 const expectedRepository = "https://github.com/stod-inc/crm-mcp-plugin";
 // MCPの接続先。変える時はここと .mcp.json を同時に変える。
 const expectedHost = "crm-mcp.matchstod.com";
